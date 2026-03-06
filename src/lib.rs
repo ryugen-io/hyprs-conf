@@ -1,6 +1,6 @@
 //! Shared config metadata utilities for hypr* tools.
 //!
-//! `hypr-conf` lets tools identify config files by a simple human-readable
+//! `hyprs-conf` lets tools identify config files by a simple human-readable
 //! header instead of hard-coded filenames.
 
 mod source;

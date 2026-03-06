@@ -1,4 +1,4 @@
-use hypr_conf::{
+use hyprs_conf::{
     collect_source_graph, expand_source_expression_to_path, extract_sources, parse_source_value,
     resolve_source_targets,
 };

@@ -1,6 +1,6 @@
 #[cfg(feature = "discovery")]
-use hypr_conf::discover_config_files;
-use hypr_conf::{ConfigMetaSpec, TYPE_KEY, parse_metadata_header, resolve_config_path};
+use hyprs_conf::discover_config_files;
+use hyprs_conf::{ConfigMetaSpec, TYPE_KEY, parse_metadata_header, resolve_config_path};
 use std::fs;
 use tempfile::tempdir;
 

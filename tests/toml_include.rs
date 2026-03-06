@@ -1,4 +1,4 @@
-use hypr_conf::{IncludeLoadError, load_toml_with_includes};
+use hyprs_conf::{IncludeLoadError, load_toml_with_includes};
 use std::fs;
 use tempfile::tempdir;
 use toml::Value;
