@@ -40,7 +40,7 @@ fn discovers_renamed_config_by_metadata() {
 #[test]
 fn fallback_wins_when_present() {
     let dir = tempdir().expect("tempdir");
-    let fallback = dir.path().join("hyprbar.conf");
+    let fallback = dir.path().join("hyprsbar.conf");
     fs::write(&fallback, "# hypr metadata\n# type = bar\n").expect("write fallback");
 
     let renamed = dir.path().join("custom.conf");
